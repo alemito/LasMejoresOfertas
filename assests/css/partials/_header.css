@@ -1,0 +1,64 @@
+header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-right: left;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+/* Estilo de los items */
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: center;
+    
+}
+
+/* Espacio entre los items */
+.menu li {
+    margin-right: 20px;
+}
+
+/* Estilos de los enlaces */
+.menu a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* Destacar las ofertas */
+#ofertas {
+    background-color: orange;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.textoLogo{
+    font-size: 24px; 
+    color: #db0a0a; 
+    margin-top: 0; 
+    white-space: pre-line; /* Respeta los saltos de linea del texto */
+    line-height: 1.5; /* Espacio entre cada salto de linea */
+}
+.search {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    margin-right: 10px;
+}

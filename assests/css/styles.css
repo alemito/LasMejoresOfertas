@@ -1,0 +1,14 @@
+/* ============= Importar todos los CSS ============*/
+/* Como es cascada, pongo los menos importantes primero, para que no pisen otras cosas */
+
+/* @import './_variables.css';
+@import './_general.css';
+@import './_header.css';
+@import './_main.css';
+@import './_footer.css'; */
+
+@import './partials/_irMigrando.css';
+@import './partials/_general.css';
+@import './partials/_header.css';
+@import './partials/_footer.css';
+
